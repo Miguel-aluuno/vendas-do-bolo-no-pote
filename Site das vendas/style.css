@@ -1,0 +1,158 @@
+/* logo da pagina */
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 80px; /* Ajuste o tamanho conforme necessário */
+  width: 80px;
+  border-radius: 10px;
+}
+
+
+/* Estilo geral da página */
+body {
+    background: linear-gradient( rgb(255, 255, 255), rgb(255, 196, 196)); /* Degradê diagonal */
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffeeee; /* Rosa claro de fundo */
+    color: #4b2c2c;
+    margin: 0;
+    padding: 0;
+}
+
+ footer {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  color: #3b3b3b;
+  background-attachment: fixed;
+}
+
+
+.logo img {
+  border-radius: 50%;
+}
+
+
+
+
+/* Destaques */
+.highlights {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.highlights h2 {
+  font-size: 2rem;
+  color: #d81b60;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  
+  
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  color: #7c1740;
+}
+
+
+
+/* Navegação */
+ul {
+    list-style: none;
+    background-color: #ffffff	;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+ul li a {
+    text-decoration: none;
+    color: #4b2c2c;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #ffbbc6;
+}
+
+/* Cabeçalho */
+    
+
+
+header {
+  color: #3f2e39;
+  text-align: center;
+  padding: 5px;
+}
+
+
+p {
+    text-align: center;
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+/* bem vindos */
+
+ .banner {
+      max-width: 600px;
+      padding: 100px;
+      text-align: center;
+      justify-content: center;
+      background-position: center;
+      align-items: center;
+    }
+    .banner p {
+      color: #4a4646;
+      font-size: 1.2em;
+      margin: 10px 0;
+      justify-content: center
+    }
+    .banner .emoji {
+      font-size: 1.5em;
+    }
